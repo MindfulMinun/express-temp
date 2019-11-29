@@ -1,0 +1,47 @@
+<!doctype html>
+<!--
+    Made with love by MindfulMinun
+    https://benjic.xyz
+-->
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>404 - Express template</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="theme-color" content="#448aff">
+
+        <!-- Import styles -->
+        <!-- Import Material Icons, Roboto & Roboto Mono -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Roboto:100,100i,200,200i,300,300i,400,400i,500,500i|Roboto+Mono:300">
+        <style media="screen">
+            :root, html, body {
+                font-family: "Roboto", Helvetica, Arial, sans-serif;
+                margin: 0;
+                line-height: 1.5;
+                background-color: #1e1e1e;
+                color: #fafafa;
+            }
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+            .no-js .no-js-hide {
+                display: none;
+            }
+        </style>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">edge &gt; ie</p>
+        <![endif]-->
+        <main>
+            <div class="container">
+                <h1>Not found</h1>
+                <p>Didn’t find {{ url }}. Did you spell something wrong?</p>
+            </div>
+        </main>
+    </body>
+    <script>document.documentElement.classList.remove("no-js")</script>
+    <script src="js/client.js"></script>
+</html>
